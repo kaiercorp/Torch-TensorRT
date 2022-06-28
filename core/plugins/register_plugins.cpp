@@ -10,6 +10,10 @@ namespace core {
 namespace plugins {
 namespace impl {
 
+int64_t dummy() {
+  return 0;
+}
+
 // Main registry for all flavours of plugins (eg: TRT plugins, Torch-TensorRT opensourced plugins)
 class TorchTRTPluginRegistry {
  public:
