@@ -28,3 +28,9 @@ cmake -S. -Brelease -DTorch_DIR="D:\DevEnv\Workspace\latest\libtorch-win-shared-
 ## torch-tensorRT 빌드하기
 cmake --build release
 ```
+
+
+### 참고한 외부 링크
+- https://github.com/pytorch/TensorRT/issues/1144#issuecomment-1168645964
+- https://pytorch.org/TensorRT/getting_started/installation.html#installation
+- https://github.com/gcuendet/Torch-TensorRT/tree/add-cmake-support#dependencies
