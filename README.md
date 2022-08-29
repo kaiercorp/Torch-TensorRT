@@ -12,7 +12,7 @@
   - 환경 변수 확인하는 방법 : ``gci env:*``
 
 ``` 
-CUDA_PATH_V1x_x=""
+$env:CUDA_PATH_V1x_x=""
 ```
 
 ``` sh
